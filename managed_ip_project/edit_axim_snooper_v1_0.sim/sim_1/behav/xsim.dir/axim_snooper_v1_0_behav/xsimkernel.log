@@ -1,0 +1,7 @@
+Running: xsim.dir/axim_snooper_v1_0_behav/xsimk -simmode gui -wdb axim_snooper_v1_0_behav.wdb -simrunnum 0 -socket 51747
+Design successfully loaded
+Design Loading Memory Usage: 87060 KB (Peak: 87092 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 160796 KB (Peak: 226332 KB)
+Simulation CPU Usage: 4480 ms

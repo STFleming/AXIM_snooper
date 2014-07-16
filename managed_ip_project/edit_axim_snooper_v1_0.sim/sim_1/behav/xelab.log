@@ -1,0 +1,21 @@
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/2013.4/Vivado/2013.4/bin/unwrapped/lnx64.o/xelab --debug typical --relax -L work -L secureip --snapshot axim_snooper_v1_0_behav --prj /home/sf306/phd_codebase/github/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.sim/sim_1/behav/axim_snooper_v1_0.prj work.axim_snooper_v1_0 
+Multi-threading is on. Using 6 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "/opt/Xilinx/2013.4/Vivado/2013.4/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture arch_imp of entity work.axim_snooper_v1_0_S00_AXI [\axim_snooper_v1_0_S00_AXI(32,4)...]
+Compiling architecture arch_imp of entity work.axim_snooper_v1_0
+Built simulation snapshot axim_snooper_v1_0_behav

@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "secureip" --snapshot "axim_snooper_v1_0_behav" --prj "/home/sf306/phd_codebase/github/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.sim/sim_1/behav/axim_snooper_v1_0.prj" "work.axim_snooper_v1_0" 

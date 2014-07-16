@@ -1,0 +1,4 @@
+slv_reg0: axi_raddr_output
+slv_reg1: axi_waddr_output
+slv_reg2: time
+slv_reg3:

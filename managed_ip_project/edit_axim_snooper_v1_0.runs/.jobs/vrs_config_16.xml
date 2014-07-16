@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+<<<<<<< HEAD
+	<Run Id="synth_1" LaunchDir="/home/sf306/phd_codebase/github/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+=======
+	<Run Id="synth_1" LaunchDir="/home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+>>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+</Runs>
+

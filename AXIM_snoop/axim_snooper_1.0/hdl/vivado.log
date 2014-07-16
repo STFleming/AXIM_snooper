@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:26:26 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Wed Jun 18 21:49:08 2014
+# Process ID: 31342
+# Log file: /home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/vivado.log
+# Journal file: /home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from /mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project /home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.xpr
+INFO: [Project 1-313] Project file moved from '/home/ee/s/sf306/AXIM_snoop/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 4849.699 ; gain = 27.648
+reset_run synth_1
+launch_runs synth_1
+[Wed Jun 18 21:51:03 2014] Launched synth_1...
+Run output will be captured here: /home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Wed Jun 18 21:58:45 2014] Launched synth_1...
+Run output will be captured here: /home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Wed Jun 18 21:59:40 2014] Launched synth_1...
+Run output will be captured here: /home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Jun 18 22:00:44 2014] Launched impl_1...
+Run output will be captured here: /home/ee/s/sf306/AXIM_snooper/managed_ip_project/edit_axim_snooper_v1_0.runs/impl_1/runme.log
+ipx::open_core -upgrade true {/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/component.xml}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/ip'.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0'
+ipx::unload_core {sfleming:HHB:axim_snooper:1.05}
+ipx::open_core -upgrade true {/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/component.xml}
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd} -top_module_name {axim_snooper_v1_0}
+INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+set_property version {1.06} [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0'
+ipx::unload_core {sfleming:HHB:axim_snooper:1.06}
+close_project
+open_project /home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.xpr
+INFO: [Project 1-313] Project file moved from '/home/sf306/phd_codebase/github/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/rtlsim.srcs/sources_1/bd/design_1/ip/design_1_init_memory_top_0_0/design_1_init_memory_top_0_0.upgrade_log', nor could it be found using path '/home/sf306/phd_codebase/github/HeterogeneousHeartbeats/applications/lloyds/RTL/rtlsim.srcs/sources_1/bd/design_1/ip/design_1_init_memory_top_0_0/design_1_init_memory_top_0_0.upgrade_log'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/ip/zynq_system_combiner_top_0_1/zynq_system_combiner_top_0_1.upgrade_log', nor could it be found using path '/home/sf306/phd_codebase/github/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/ip/zynq_system_combiner_top_0_1/zynq_system_combiner_top_0_1.upgrade_log'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/ip/zynq_system_axim_snooper_0_1/zynq_system_axim_snooper_0_1.upgrade_log', nor could it be found using path '/home/sf306/phd_codebase/github/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/ip/zynq_system_axim_snooper_0_1/zynq_system_axim_snooper_0_1.upgrade_log'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/combiner'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/kernel'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/ip'.
+WARNING: [IP_Flow 19-3549] Detected incompatibility between IP zynq_system_axim_snooper_0_0 and its definition sfleming:HHB:axim_snooper:1.05
+CRITICAL WARNING: [IP_Flow 19-2325] Could not find the IP definition for IP 'zynq_system_axim_snooper_0_0' in the IP Catalog. Attempting to load the user repositories that were used when that IP was generated, to see if the definition is there. The user repositories being added are:
+    /home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/combiner
+    /home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0
+    /home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/kernel
+
+CRITICAL WARNING: [IP_Flow 19-2329] The specified repository '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/combiner' is already a user repository, so not adding it.
+CRITICAL WARNING: [IP_Flow 19-2329] The specified repository '/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0' is already a user repository, so not adding it.
+CRITICAL WARNING: [IP_Flow 19-2329] The specified repository '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/kernel' is already a user repository, so not adding it.
+CRITICAL WARNING: [IP_Flow 19-2327] Loaded the user repositories that were used when the IP was generated. Still cannot find the IP definition for IP 'zynq_system_axim_snooper_0_0'. Some of this IP's features have been disabled.
+WARNING: [BD 41-1303] One or more IPs have been locked in the design 'zynq_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 4878.562 ; gain = 14.016
+open_bd_design {/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/zynq_system.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_50M
+Adding component instance block -- xilinx.com:hls:lloyds_kernel_top:1.0 - lloyds_kernel_top_0
+Adding component instance block -- xilinx.com:hls:combiner_top:1.0 - combiner_top_0
+Adding component instance block -- sfleming:HHB:axim_snooper:1.05 - axim_snooper_0
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <zynq_system> from BD file </home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/zynq_system.bd>
+open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 4990.922 ; gain = 95.742
+report_ip_status -name ip_status_1 
+current_bd_design zynq_system
+upgrade_bd_cells [get_bd_cells [list /axim_snooper_0 ] ]
+INFO: [IP_Flow 19-1972] Upgraded zynq_system_axim_snooper_0_0 from axim_snooper_v1_0 1.05 to axim_snooper_v1_0 1.06
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading IP 'zynq_system_axim_snooper_0_0'. These changes may impact your design.
+INFO: [IP_Flow 19-3471] Wrote upgrade log to '/home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/ip/zynq_system_axim_snooper_0_0/zynq_system_axim_snooper_0_0.upgrade_log'.
+Wrote  : </home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/zynq_system.bd> 
+report_ip_status -name ip_status_1 
+set_property location {4 1539 1127} [get_bd_cells axim_snooper_0]
+set_property location {5 2058 1181} [get_bd_cells axi_mem_intercon_1]
+set_property location {5 2068 1352} [get_bd_cells axi_mem_intercon_1]
+connect_bd_net [get_bd_pins axim_snooper_0/awvalid_output] [get_bd_pins axi_mem_intercon_1/S00_AXI_awvalid]
+WARNING: [BD 41-1306] The connection to interface pin /axi_mem_intercon_1/S00_AXI_awvalid is being overridden by the user. This pin will not be connected as a part of interface connection S00_AXI
+connect_bd_net [get_bd_pins axim_snooper_0/axim_waddr_output] [get_bd_pins axi_mem_intercon_1/S00_AXI_awaddr]
+WARNING: [BD 41-1306] The connection to interface pin /axi_mem_intercon_1/S00_AXI_awaddr is being overridden by the user. This pin will not be connected as a part of interface connection S00_AXI
+connect_bd_net [get_bd_pins axim_snooper_0/arvalid_output] [get_bd_pins axi_mem_intercon_1/S00_AXI_arvalid]
+WARNING: [BD 41-1306] The connection to interface pin /axi_mem_intercon_1/S00_AXI_arvalid is being overridden by the user. This pin will not be connected as a part of interface connection S00_AXI
+connect_bd_net [get_bd_pins axim_snooper_0/axim_raddr_output] [get_bd_pins axi_mem_intercon_1/S00_AXI_araddr]
+WARNING: [BD 41-1306] The connection to interface pin /axi_mem_intercon_1/S00_AXI_araddr is being overridden by the user. This pin will not be connected as a part of interface connection S00_AXI
+connect_bd_net [get_bd_pins lloyds_kernel_top_0/m_axi_master_portA_AWVALID] [get_bd_pins axim_snooper_0/awvalid_input]
+WARNING: [BD 41-1306] The connection to interface pin /lloyds_kernel_top_0/m_axi_master_portA_AWVALID is being overridden by the user. This pin will not be connected as a part of interface connection M_AXI_MASTER_PORTA
+connect_bd_net [get_bd_pins axim_snooper_0/axim_waddr_input] [get_bd_pins lloyds_kernel_top_0/m_axi_master_portA_AWADDR]
+WARNING: [BD 41-1306] The connection to interface pin /lloyds_kernel_top_0/m_axi_master_portA_AWADDR is being overridden by the user. This pin will not be connected as a part of interface connection M_AXI_MASTER_PORTA
+connect_bd_net [get_bd_pins lloyds_kernel_top_0/m_axi_master_portA_ARVALID] [get_bd_pins axim_snooper_0/arvalid_input]
+WARNING: [BD 41-1306] The connection to interface pin /lloyds_kernel_top_0/m_axi_master_portA_ARVALID is being overridden by the user. This pin will not be connected as a part of interface connection M_AXI_MASTER_PORTA
+connect_bd_net [get_bd_pins axim_snooper_0/axim_raddr_input] [get_bd_pins lloyds_kernel_top_0/m_axi_master_portA_ARADDR]
+WARNING: [BD 41-1306] The connection to interface pin /lloyds_kernel_top_0/m_axi_master_portA_ARADDR is being overridden by the user. This pin will not be connected as a part of interface connection M_AXI_MASTER_PORTA
+save_bd_design
+Wrote  : </home/ee/s/sf306/HeterogeneousHeartbeats/applications/lloyds/RTL/k_means_zynq/k_means_zynq.srcs/sources_1/bd/zynq_system/zynq_system.bd> 
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 18 22:10:53 2014...
