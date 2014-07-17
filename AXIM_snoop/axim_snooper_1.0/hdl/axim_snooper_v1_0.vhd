@@ -23,24 +23,6 @@ entity axim_snooper_v1_0 is
 		C_S00_AXI_ADDR_WIDTH	: integer	:= 32
 	);
 	port (
-		-- Users to add ports here
-<<<<<<< HEAD
-		--arvalid_input		:	in std_logic;
-		--awvalid_input		:	in std_logic;
-		--axim_raddr_input	:	in std_logic_vector(31 downto 0); --This is hooked into the AXI Master read address that we are snooping on.
-		--axim_waddr_input	:	in std_logic_vector(31 downto 0); --This is hooked into the AXI Master write address that we are snooping on.
-=======
-		arvalid_input		:	in std_logic;
-		arvalid_output		:	out std_logic;
-		awvalid_input		:	in std_logic;
-		awvalid_output		:	out std_logic;
-		axim_raddr_input	:	in std_logic_vector(31 downto 0); --This is hooked into the AXI Master read address that we are snooping on.
-		axim_raddr_output	:	out std_logic_vector(31 downto 0);
-		axim_waddr_input	:	in std_logic_vector(31 downto 0); --This is hooked into the AXI Master write address that we are snooping on.
-		axim_waddr_output	:	out std_logic_vector(31 downto 0);
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
-		-- User ports ends
-		-- Do not modify the ports beyond this line
 
         --input_slave
         s01_axi_aclk    : in std_logic;
@@ -153,7 +135,6 @@ architecture arch_imp of axim_snooper_v1_0 is
 		);
 	end component axim_snooper_v1_0_S00_AXI;
 
-<<<<<<< HEAD
 signal patch_axi_aclk           :   std_logic;
 signal patch_axi_aresertn       :   std_logic;
 signal patch_axi_awaddr         :   std_logic_vector(C_S00_AXI_ADDR_WIDTH-1 downto 0);
@@ -174,25 +155,8 @@ signal patch_axi_arready        :   std_logic;
 signal patch_axi_rdata          :   std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
 signal patch_axi_rresp          :   std_logic_vector(1 downto 0);
 signal patch_axi_rvalid         :   std_logic;
-signal patch_axi_rready         :   std_logic;
-=======
-SIGNAL arvalid_temp     :   std_logic;
-SIGNAL awvalid_temp     :   std_logic;
-SIGNAL axim_raddr_temp  :   std_logic_vector(31 downto 0);
-SIGNAL axim_waddr_temp  :   std_logic_vector(31 downto 0);
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 
 begin
-
-arvalid_temp <= arvalid_input;
-awvalid_temp <= awvalid_input;
-axim_raddr_temp <= axim_raddr_input;
-axim_waddr_temp <= axim_waddr_input;
-
-arvalid_output <= arvalid_temp;
-awvalid_output <= awvalid_temp;
-axim_raddr_output <= axim_raddr_temp;
-axim_waddr_output <= axim_waddr_temp;
 
 -- Instantiation of Axi Bus Interface S00_AXI
 axim_snooper_v1_0_S00_AXI_inst : axim_snooper_v1_0_S00_AXI
