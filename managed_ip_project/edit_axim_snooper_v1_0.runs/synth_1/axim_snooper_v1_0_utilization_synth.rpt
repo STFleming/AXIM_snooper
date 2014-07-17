@@ -1,13 +1,8 @@
 Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2013.4 (lin64) Build 353583 Mon Dec  9 17:26:26 MST 2013
-<<<<<<< HEAD
-| Date         : Wed Jul 16 18:41:12 2014
+| Date         : Thu Jul 17 17:42:22 2014
 | Host         : ganymede running 64-bit Ubuntu 12.04.3 LTS
-=======
-| Date         : Wed Jun 18 22:00:24 2014
-| Host         : ee-boxer0 running 64-bit Ubuntu 10.04.4 LTS
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 | Command      : report_utilization -file axim_snooper_v1_0_utilization_synth.rpt -pb axim_snooper_v1_0_utilization_synth.pb
 | Design       : axim_snooper_v1_0
 | Device       : xc7z020
@@ -75,11 +70,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+--------+
 |          Site Type          | Used | Loced | Available |  Util% |
 +-----------------------------+------+-------+-----------+--------+
-<<<<<<< HEAD
 | Bonded IOB                  |  394 |     0 |       200 | 197.00 |
-=======
-| Bonded IOB                  |  220 |     0 |       200 | 110.00 |
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 | Bonded IPADs                |    0 |     0 |         2 |   0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |   0.00 |
 | IBUFGDS                     |    0 |     0 |       192 |   0.00 |
@@ -138,13 +129,8 @@ Table of Contents
 | Ref Name | Used |
 +----------+------+
 | FDRE     |  231 |
-<<<<<<< HEAD
 | IBUF     |  199 |
 | OBUF     |  193 |
-=======
-| IBUF     |  113 |
-| OBUF     |  107 |
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 | LUT6     |   96 |
 | LUT1     |   65 |
 | CARRY4   |   18 |

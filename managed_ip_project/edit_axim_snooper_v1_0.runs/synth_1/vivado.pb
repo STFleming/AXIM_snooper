@@ -7,18 +7,18 @@ Q
 Feature available: %s
 81*common2"
 Implementation2default:defaultZ17-81
-ö
+å
 +Loading parts and site information from %s
-36*device2V
-B/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/arch.xml2default:defaultZ21-36
-ß
+36*device2H
+4/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/arch.xml2default:defaultZ21-36
+ô
 !Parsing RTL primitives file [%s]
-14*netlist2l
-X/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-14
-∞
+14*netlist2^
+J/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-14
+¢
 *Finished parsing RTL primitives file [%s]
-11*netlist2l
-X/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-11
+11*netlist2^
+J/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml2default:defaultZ29-11
 u
 Command: %s
 53*	vivadotcl2M
@@ -40,14 +40,13 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ó
 %s*synth2á
-sStarting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 776.648 ; gain = 147.391
+sStarting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 768.605 ; gain = 148.391
 2default:default
-<<<<<<< HEAD
 Ô
 synthesizing module '%s'638*oasys2%
 axim_snooper_v1_02default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-1082default:default8@Z8-638
+1012default:default8@Z8-638
 a
 %s*synth2R
 >	Parameter C_S01_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -64,13 +63,6 @@ a
 %s*synth2R
 >	Parameter C_M00_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-=======
-ﬂ
-synthesizing module '%s'638*oasys2%
-axim_snooper_v1_02default:default2i
-S/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-572default:default8@Z8-638
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 a
 %s*synth2R
 >	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -87,30 +79,19 @@ _
 %s*synth2P
 <	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-<<<<<<< HEAD
 £
-=======
-Ö
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2-
-axim_snooper_v1_0_S00_AXI2default:default2o
-[/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
+axim_snooper_v1_0_S00_AXI2default:default2~
+j/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
 72default:default22
 axim_snooper_v1_0_S00_AXI_inst2default:default2-
-<<<<<<< HEAD
 axim_snooper_v1_0_S00_AXI2default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-1702default:default8@Z8-3491
+1632default:default8@Z8-3491
 è
-=======
-axim_snooper_v1_0_S00_AXI2default:default2i
-S/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-1122default:default8@Z8-3491
-ˇ
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 synthesizing module '%s'638*oasys2=
-)axim_snooper_v1_0_S00_AXI__parameterized02default:default2q
-[/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
+)axim_snooper_v1_0_S00_AXI__parameterized02default:default2Ä
+j/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-638
 _
 %s*synth2P
@@ -120,41 +101,40 @@ _
 %s*synth2P
 <	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-ƒ
-default block is never used226*oasys2q
-[/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
+‘
+default block is never used226*oasys2Ä
+j/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
 2532default:default8@Z8-226
-ƒ
-default block is never used226*oasys2q
-[/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
+‘
+default block is never used226*oasys2Ä
+j/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
 3862default:default8@Z8-226
-∫
+ 
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axim_snooper_v1_0_S00_AXI__parameterized02default:default2
 12default:default2
-12default:default2q
-[/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
+12default:default2Ä
+j/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0_S00_AXI.vhd2default:default2
 912default:default8@Z8-256
-<<<<<<< HEAD
 ´
 0Net %s in module/entity %s does not have driver.3422*oasys2!
 m00_axi_error2default:default2%
 axim_snooper_v1_02default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-592default:default8@Z8-3848
+522default:default8@Z8-3848
 Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 m00_axi_txn_done2default:default2%
 axim_snooper_v1_02default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-602default:default8@Z8-3848
+532default:default8@Z8-3848
 ™
 %done synthesizing module '%s' (%s#%s)256*oasys2%
 axim_snooper_v1_02default:default2
 22default:default2
 12default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-1082default:default8@Z8-256
+1012default:default8@Z8-256
 Ñ
 !design %s has unconnected port %s3331*oasys2%
 axim_snooper_v1_02default:default2!
@@ -183,39 +163,26 @@ b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/ax
 !design %s has unconnected port %s3331*oasys2%
 axim_snooper_v1_02default:default2#
 m00_axi_aresetn2default:defaultZ8-3331
-=======
-ö
-%done synthesizing module '%s' (%s#%s)256*oasys2%
-axim_snooper_v1_02default:default2
-22default:default2
-12default:default2i
-S/home/ee/s/sf306/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-572default:default8@Z8-256
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 ó
 %s*synth2á
-sFinished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 812.469 ; gain = 183.211
+sFinished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 803.426 ; gain = 183.211
 2default:default
 ù
 %s*synth2ç
-<<<<<<< HEAD
-yFinished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 803.426 ; gain = 183.211
-=======
-yFinished RTL Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 812.469 ; gain = 183.211
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+yFinished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 803.426 ; gain = 183.211
 2default:default
 ´
 0Net %s in module/entity %s does not have driver.3422*oasys2!
 m00_axi_error2default:default2%
 axim_snooper_v1_02default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-592default:default8@Z8-3848
+522default:default8@Z8-3848
 Æ
 0Net %s in module/entity %s does not have driver.3422*oasys2$
 m00_axi_txn_done2default:default2%
 axim_snooper_v1_02default:default2x
 b/home/sf306/phd_codebase/github/AXIM_snooper/AXIM_snoop/axim_snooper_1.0/hdl/axim_snooper_v1_0.vhd2default:default2
-602default:default8@Z8-3848
+532default:default8@Z8-3848
 <
 %s*synth2-
 
@@ -237,30 +204,30 @@ N
 %s*synth2?
 ++-+--------------+------------+----------+
 2default:default
-≠
+ü
 Loading clock regions from %s
-13*device2v
-b/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml2default:defaultZ21-13
-Æ
+13*device2h
+T/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml2default:defaultZ21-13
+†
 Loading clock buffers from %s
-11*device2w
-c/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml2default:defaultZ21-11
-Æ
+11*device2i
+U/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml2default:defaultZ21-11
+†
 &Loading clock placement rules from %s
-318*place2n
-Z/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/ClockPlacerRules.xml2default:defaultZ30-318
-¨
+318*place2`
+L/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/zynq/ClockPlacerRules.xml2default:defaultZ30-318
+û
 )Loading package pin functions from %s...
-17*device2j
-V/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/PinFunctions.xml2default:defaultZ21-17
-™
+17*device2\
+H/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/zynq/PinFunctions.xml2default:defaultZ21-17
+ú
 Loading package from %s
-16*device2y
-e/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml2default:defaultZ21-16
-°
+16*device2k
+W/opt/Xilinx/2013.4/Vivado/2013.4/data/parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml2default:defaultZ21-16
+ì
 Loading io standards from %s
-15*device2k
-W/mnt/cas_nfs/applications/Xilinx/Vivado/2013.4/data/./parts/xilinx/zynq/IOStandards.xml2default:defaultZ21-15
+15*device2]
+I/opt/Xilinx/2013.4/Vivado/2013.4/data/./parts/xilinx/zynq/IOStandards.xml2default:defaultZ21-15
 z
 %s*synth2k
 WPart Resources:
@@ -269,11 +236,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ≤
 %s*synth2¢
-<<<<<<< HEAD
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1090.047 ; gain = 469.832
-=======
-çFinished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1099.086 ; gain = 469.828
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+çFinished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1090.047 ; gain = 469.832
 2default:default
 B
 %s*synth23
@@ -1054,11 +1017,7 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 s00_axi_arprot[0]2default:defaultZ8-3331
 ™
 %s*synth2ö
-<<<<<<< HEAD
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1099.059 ; gain = 478.844
-=======
-ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1108.102 ; gain = 478.844
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+ÖFinished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1099.059 ; gain = 478.844
 2default:default
 ¢
 %s*synth2í
@@ -1080,7 +1039,6 @@ R-------------------------------------------------------------------------------
 2default:default
 ü
 %s*synth2è
-<<<<<<< HEAD
 {Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 °
@@ -1090,17 +1048,6 @@ R-------------------------------------------------------------------------------
 †
 %s*synth2ê
 |Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
-=======
-{Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
-2default:default
-°
-%s*synth2ë
-}Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
-2default:default
-†
-%s*synth2ê
-|Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 2default:default
 D
 %s*synth25
@@ -1108,11 +1055,7 @@ D
 2default:default
 ö
 %s*synth2ä
-<<<<<<< HEAD
-vFinished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1124.098 ; gain = 503.883
-=======
-vFinished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+vFinished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 ;
 %s*synth2,
@@ -1141,19 +1084,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ´
 %s*synth2õ
-<<<<<<< HEAD
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1124.098 ; gain = 503.883
+ÜFinished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 ®
 %s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1124.098 ; gain = 503.883
-=======
-ÜFinished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
-2default:default
-®
-%s*synth2ò
-ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+ÉFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 ¢
 %s*synth2í
@@ -1261,11 +1196,7 @@ Report Cell Usage:
 2default:default
 ;
 %s*synth2,
-<<<<<<< HEAD
 |13    |OBUFT  |     2|
-=======
-|12    |OBUF   |   107|
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 2default:default
 ;
 %s*synth2,
@@ -1290,11 +1221,7 @@ Report Instance Areas:
 2default:default
 Ä
 %s*synth2q
-<<<<<<< HEAD
 ]|1     |top                              |                                          |   832|
-=======
-]|1     |top                              |                                          |   658|
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 2default:default
 Ä
 %s*synth2q
@@ -1306,11 +1233,7 @@ Report Instance Areas:
 2default:default
 ß
 %s*synth2ó
-<<<<<<< HEAD
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1124.098 ; gain = 503.883
-=======
-ÇFinished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+ÇFinished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 k
 %s*synth2\
@@ -1318,11 +1241,7 @@ HSynthesis finished with 0 errors, 0 critical warnings and 208 warnings.
 2default:default
 •
 %s*synth2ï
-<<<<<<< HEAD
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1124.098 ; gain = 503.883
-=======
-ÄSynthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1132.148 ; gain = 502.891
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+ÄSynthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1124.098 ; gain = 503.883
 2default:default
 ^
 -Analyzing %s Unisim elements for replacement
@@ -1369,33 +1288,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-<<<<<<< HEAD
 00:00:202default:default2
-00:00:232default:default2
+00:00:202default:default2
 1478.5742default:default2
 762.9652default:defaultZ17-268
-=======
-00:00:332default:default2
-00:00:342default:default2
-1485.6252default:default2
-759.9772default:defaultZ17-268
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 Ç
-<<<<<<< HEAD
-vreport_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1482.598 ; gain = 2.012
-=======
-vreport_utilization: Time (s): cpu = 00:00:00.64 ; elapsed = 00:00:00.77 . Memory (MB): peak = 1489.648 ; gain = 2.012
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+vreport_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1482.598 ; gain = 2.012
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-<<<<<<< HEAD
-Wed Jul 16 18:41:12 20142default:defaultZ17-206
-=======
-Wed Jun 18 22:00:24 20142default:defaultZ17-206
->>>>>>> a848978898c7905b8ca4f9a54e2c368b97c615b1
+Thu Jul 17 17:42:22 20142default:defaultZ17-206

@@ -155,6 +155,7 @@ signal patch_axi_arready        :   std_logic;
 signal patch_axi_rdata          :   std_logic_vector(C_S00_AXI_DATA_WIDTH-1 downto 0);
 signal patch_axi_rresp          :   std_logic_vector(1 downto 0);
 signal patch_axi_rvalid         :   std_logic;
+signal patch_axi_rready         :   std_logic;
 
 begin
 
